@@ -1,5 +1,7 @@
 # A Novel Approach to Resolving the P vs NP Problem
 
+Luke Tonon, December 2024
+
 ## Introduction
 
 The question of whether **P = NP** is one of the most fundamental and unresolved problems in computer science and mathematics, with profound implications for computation, optimization, and complexity theory.
