@@ -31,3 +31,8 @@ In such cases, solvers must rely on "guessing" or brute force to arrive at the t
 ## Conclusion
 
 This framework provides a novel lens for understanding the distinction between **P** and **NP**, grounded in the fundamental limits of logical deduction. While this approach feels deeply correct, I urge the mathematics and computer science communities to rigorously examine and evaluate its implications.
+
+# An Easier to Understand Explanation
+It is widely known that the SAT problem can be made into a formal system.
+Thus, we can apply lower bounds of reasoning from proof theory to show that the shortest lines of reasoning will always grow exponentially.
+If a polynomial solver existed for SAT, it would have to transcend logical limits, but this is impossible. SAT is known to be in NP but can never be in P. Thus, P != NP.
