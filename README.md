@@ -35,4 +35,4 @@ This framework provides a novel lens for understanding the distinction between *
 # An Easier to Understand Explanation
 It is widely known that the SAT problem can be made into a formal system.
 Thus, we can apply lower bounds of reasoning from proof theory to show that the shortest lines of reasoning will always grow exponentially.
-If a polynomial solver existed for SAT, it would have to transcend logical limits, but this is impossible. SAT is known to be in NP but can never be in P. Thus, P != NP.
+If a polynomial solver existed for SAT, it would have to transcend logical limits because it hasn't revealed enough required "unlocks" or truths, but this is impossible. SAT is known to be in NP but can never be in P. Thus, P != NP.
