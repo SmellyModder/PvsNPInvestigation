@@ -6,7 +6,7 @@ Luke Tonon, December 2024
 
 The question of whether **P = NP** is one of the most fundamental and unresolved problems in computer science and mathematics, with profound implications for computation, optimization, and complexity theory.
 
-This text presents a novel approach to resolving this question by exploring the connection between logical transformations in algorithms and Gödel’s incompleteness theorems.
+This text presents a novel approach to resolving this question by exploring the connection between logical transformations in algorithms and Gödel's incompleteness theorems.
 
 ## Algorithms and Logical Transformations
 
@@ -18,11 +18,11 @@ Some algorithms, known as **solvers**, differ in that they must produce an answe
 
 ## The Novel Connection
 
-The novel connection proposed here is that solvers, when viewed abstractly, are systems that attempt to transform information following one set of rules (input constraints) into information that adheres to another set of rules (desired output). This abstraction mirrors Gödel’s incompleteness theorems, which describe the limits of provability within formal systems.
+The novel connection proposed here is that solvers, when viewed abstractly, are systems that attempt to transform information following one set of rules (input constraints) into information that adheres to another set of rules (desired output). This abstraction mirrors Gödel's incompleteness theorems, which describe the limits of provability within formal systems.
 
-## Gödel’s Theorems and Their Implications
+## Gödel's Theorems and Their Implications
 
-Gödel’s incompleteness theorems show that in any sufficiently expressive formal system, there exist true statements that cannot be proven—truths that cannot be derived through logical deduction alone. This insight implies that solvers, in attempting to produce true outputs relative to a set of rules, may encounter scenarios where proof-based methods cannot succeed.
+Gödel's incompleteness theorems show that in any sufficiently expressive formal system, there exist true statements that cannot be proven—truths that cannot be derived through logical deduction alone. This insight implies that solvers, in attempting to produce true outputs relative to a set of rules, may encounter scenarios where proof-based methods cannot succeed.
 
 ### The Necessity of Guessing
 
@@ -35,4 +35,9 @@ This framework provides a novel lens for understanding the distinction between *
 # An Easier to Understand Explanation
 It is widely known that the SAT problem can be made into a formal system.
 Thus, we can apply lower bounds of reasoning from proof theory to show that the shortest lines of reasoning will always grow exponentially.
-If a polynomial solver existed for SAT, it would have to transcend logical limits because it hasn't revealed enough required "unlocks" or truths, but this is impossible. SAT is known to be in NP but can never be in P. Thus, P != NP.
+If a polynomial solver existed for SAT, it would have to transcend logical limits because it hasn't revealed enough required truths, but this is impossible. SAT is known to be in NP but can never be in P. Thus, P != NP.
+
+## Key Reminders
+It's possible that NP-complete problems can still be solved efficiently enough for practical purposes.
+This proof's scope is limited to deterministic solvers, which is what **P** only concerns, by definition.
+Thus, non-deterministic solvers, not bounded by reasoning, may still be capable of performing accurately and efficiently enough to be applicable in practice.
