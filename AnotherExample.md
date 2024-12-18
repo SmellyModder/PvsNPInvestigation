@@ -1,3 +1,15 @@
+### Before Reading
+Before continuing, I ask you to ponder the following question:
+
+_How could a deterministic solver, a process that must perform a consistent sequence of logical steps, be able to overcome the logical limits of the problem it is trying to solve?_
+
+
+If you think about it deeply enough, the answer should be simple: it can't.
+
+---
+
+### (Counter)Example
+
 The following is an explanation I asked ChatGPT to look into that I think is most simple to understand.
 
 ---
